@@ -1,0 +1,37 @@
+# packages outside the gentoo overlay
+
+## GURU - https://wiki.gentoo.org/wiki/Project:GURU
+=gui-apps/wdisplays-1.1::guru
+# yazi - terminal file manager
+>=app-misc/yazi-25.2.11::guru
+
+# vesktop - alt discord
+=net-im/vesktop-bin-1.5.4::guru
+
+# zen browser - forked firefox
+>=www-client/zen-bin-1.7.1b::guru
+
+# r2modman - mod manager (e.g. lethal company)
+# >=games-util/r2modman-bin-3.1.51::guru
+>=games-util/r2modman-bin-3.1.57::dogblamer
+
+# tldr - improved/easier man page.
+app-text/tldr
+
+# chatterino - improved chat client for twitch
+>=net-im/chatterino-2.5.2::guru
+
+# nerdfonts - for the icons
+=media-fonts/nerdfonts-3.3.0::guru
+
+## DOGBLAMER - https://github.com/dogblamer/dogblamer-overlay
+
+# bolt-launcher - alt launcher for osrs
+games-rpg/bolt-launcher::dogblamer
+
+
+## STEAM - https://github.com/anyc/steam-overlay
+
+*/*::steam-overlay
+games-util/game-device-udev-rules
+sys-libs/libudev-compat

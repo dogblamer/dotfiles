@@ -1,0 +1,82 @@
+## base packages use flags
+
+# Kernel - Re-generate grub.cfg (with grub) and auto generate initramfs while installing a new kernel version
+sys-kernel/installkernel grub dracut
+
+# pipewire - sound-server use flag is needed, otherwise pulseaudio will act as the sound-server.
+media-video/pipewire sound-server pipewire-alsa
+
+# sway - window manager
+gui-wm/sway -man -wallpapers
+
+# keepassxc - password manager
+app-admin/keepassxc -network -ssh-agent
+>=sys-libs/zlib-1.3.1-r1 minizip
+
+# ffmpeg - libraries and programs for handling video, audio, etc.
+media-video/ffmpeg x264 x265 bluray vaapi libdrm
+
+# moonlight - streaming software for sunshine on my laptop.
+>=media-libs/libsdl2-2.30.7-r1 kms
+>=media-libs/freetype-2.13.3 harfbuzz
+
+# gtk+ - cups is required by r2modman-bin.
+>=x11-libs/gtk+-3.24.42-r1 cups
+
+# fonts - google font package, kinda bloated.
+media-fonts/noto cjk
+
+# ncspot - terminal spotify player
+media-sound/ncspot mpris
+
+# required by games-engines/openmw-0.48.0::gentoo
+>=sci-physics/bullet-3.21 double-precision
+
+# htop - hardware sensors support
+sys-process/htop lm-sensors
+
+# nerdfonts - need the icons/symbols
+media-fonts/nerdfonts nerdfontssymbolsonly
+
+# libreoffice - full office suite
+app-office/libreoffice -bluetooth 
+
+# tmux - terminal multiplexer
+app-misc/tmux vim-syntax
+
+
+## 32-bit use flags
+
+# required by media-libs/mesa-24.3.4-r1::gentoo
+# required by gui-libs/wlroots-0.17.4::gentoo
+# required by gui-wm/sway-1.9-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-util/spirv-tools-1.3.296.0 abi_x86_32
+
+# required by sys-libs/pam-1.7.0_p20241230-r3::gentoo[-berkdb]
+# required by sys-apps/util-linux-2.40.4::gentoo[pam]
+# required by dev-lang/python-3.13.2::gentoo
+# required by dev-util/glslang-1.4.304.0::gentoo
+# required by media-libs/shaderc-2024.4::gentoo
+# required by media-libs/libplacebo-7.349.0::gentoo[shaderc]
+# required by media-video/mpv-0.39.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=sys-libs/gdbm-1.24 abi_x86_32
+
+# needed by mesa
+x11-libs/libdrm video_cards_radeon
+
+# required by dev-libs/nss-3.101.2::gentoo
+# required by net-im/vesktop-bin-1.5.4::guru
+# required by @selected
+# required by @world (argument)
+>=dev-db/sqlite-3.47.2 abi_x86_32
+
+# required by dev-db/sqlite-3.47.2::gentoo[readline]
+# required by dev-libs/nss-3.101.2::gentoo
+# required by net-im/vesktop-bin-1.5.4::guru
+# required by @selected
+# required by @world (argument)
+>=sys-libs/readline-8.2_p13-r1 abi_x86_32

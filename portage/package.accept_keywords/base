@@ -1,0 +1,25 @@
+## GENTOO - https://packages.gentoo.org/categories
+
+# openmw - engine for morrowind
+=games-engines/openmw-0.48.0::gentoo
+
+# mygui - gui library needed by openmw
+=dev-games/mygui-3.4.1-r1::gentoo
+
+# recastnavigation - toolset
+=dev-games/recastnavigation-1.6.0::gentoo
+
+# openscenegraph - openmw fork
+=dev-games/openscenegraph-openmw-3.6_p20221115-r1::gentoo
+
+# sol2 - lua api wrapper
+=dev-cpp/sol2-3.3.1::gentoo
+
+# gamemode - optimise system for  better (game) performance on demand 
+games-util/gamemode
+
+# moonlight - can stream sunshine clients to my computer
+>=net-misc/moonlight-6.1.0-r1::gentoo
+
+# zoxide - replacement for cd
+app-shells/zoxide
