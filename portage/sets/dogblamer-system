@@ -1,0 +1,15 @@
+## SYSTEM (utils/drivers/etc.)
+#
+
+# KERNEL
+sys-kernel/gentoo-kernel
+sys-kernel/installkernel
+
+# DRIVERS
+sys-kernel/linux-firmware
+
+# UTILS
+sys-fs/xfsprogs
+sys-fs/dosfstools
+sys-block/io-scheduler-udev-rules
+net-vpn/wireguard-tools
