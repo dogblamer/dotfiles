@@ -1,4 +1,5 @@
-# steam - 32-bit, you need the steam overlay enabled.
+## STEAM - 32-bit (steam overlay required)
+
 app-accessibility/at-spi2-core  abi_x86_32
 app-arch/bzip2                  abi_x86_32
 app-arch/lz4                    abi_x86_32

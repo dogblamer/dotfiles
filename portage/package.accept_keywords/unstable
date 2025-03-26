@@ -1,6 +1,7 @@
-# packages outside the gentoo overlay
+## UNSTABLE PACKAGES (!= gentoo overlay)
 
-## GURU - https://wiki.gentoo.org/wiki/Project:GURU
+## GURU (https://wiki.gentoo.org/wiki/Project:GURU)
+
 =gui-apps/wdisplays-1.1::guru
 # yazi - terminal file manager
 >=app-misc/yazi-25.2.11::guru
@@ -24,13 +25,12 @@ app-text/tldr
 # nerdfonts - for the icons
 =media-fonts/nerdfonts-3.3.0::guru
 
-## DOGBLAMER - https://github.com/dogblamer/dogblamer-overlay
+## DOGBLAMER (https://github.com/dogblamer/dogblamer-overlay)
 
 # bolt-launcher - alt launcher for osrs
 games-rpg/bolt-launcher::dogblamer
 
-
-## STEAM - https://github.com/anyc/steam-overlay
+## STEAM (https://github.com/anyc/steam-overlay)
 
 */*::steam-overlay
 games-util/game-device-udev-rules

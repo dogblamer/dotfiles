@@ -1,4 +1,4 @@
-## base packages use flags
+## BASE PACKAGES (use flags)
 
 # Kernel - Re-generate grub.cfg (with grub) and auto generate initramfs while installing a new kernel version
 sys-kernel/installkernel grub dracut
@@ -45,7 +45,7 @@ app-office/libreoffice -bluetooth
 app-misc/tmux vim-syntax
 
 
-## 32-bit use flags
+## 32-bit 
 
 # required by media-libs/mesa-24.3.4-r1::gentoo
 # required by gui-libs/wlroots-0.17.4::gentoo
