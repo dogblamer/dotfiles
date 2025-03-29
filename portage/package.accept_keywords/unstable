@@ -2,7 +2,6 @@
 
 ## GURU (https://wiki.gentoo.org/wiki/Project:GURU)
 
-=gui-apps/wdisplays-1.1::guru
 # yazi - terminal file manager
 >=app-misc/yazi-25.2.11::guru
 
@@ -18,9 +17,6 @@
 
 # tldr - improved/easier man page.
 app-text/tldr
-
-# chatterino - improved chat client for twitch
->=net-im/chatterino-2.5.2::guru
 
 # nerdfonts - for the icons
 =media-fonts/nerdfonts-3.3.0::guru
